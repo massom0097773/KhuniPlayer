@@ -101,9 +101,9 @@ HELP_7 = """✨ **ping cmd :**
 
 HELP_8 = """✅<u>**Play Commands:**</u>
 
-Available Commands = play, bgt, vplay , cplay
+Available Commands = play, misty, vplay , cplay
 
-ForcePlay Commands = playforce , bgtforce vplayforce , cplayforce
+ForcePlay Commands = playforce , mistyforce vplayforce , cplayforce
 
 **c** stands for channel play.
 **v** stands for video play.
