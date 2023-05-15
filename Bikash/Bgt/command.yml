@@ -17,8 +17,8 @@ STATS_COMMAND : ["stats"]
 LANGUAGE_COMMAND : ["lang", "language", "langs"]
 
 # Play Commands
-PLAY_COMMAND : ["play", "misty", "/misty", "vplay", "cplay", "cvplay", "playforce", "vplayforce", "cplayforce", "cvplayforce"]
-PLAYMODE_COMMAND : ["playmode", "bgtmode"]
+PLAY_COMMAND : ["play", "khuni", "villan", "vplay", "cplay", "cvplay", "playforce", "vplayforce", "cplayforce", "cvplayforce"]
+PLAYMODE_COMMAND : ["playmode", "khunimode"]
 CHANNELPLAY_COMMAND : ["channelplay"]
 STREAM_COMMAND : ["stream", "cstream", "streamforce"]
 
@@ -51,9 +51,9 @@ RESTART_COMMAND : ["restart", ".reset", "gpreboot"]
 # Sudo Users Commaands
 
 # Sudo Command
-ADDSUDO_COMMAND : ["addsudo", "adbk", "adbgt"]
-DELSUDO_COMMAND : ["delsudo", "delbk", "delbgt"]
-SUDOUSERS_COMMAND : ["sudolist", "bklist", "bgtlist"]
+ADDSUDO_COMMAND : ["addsudo", "adbk", "adkhuni"]
+DELSUDO_COMMAND : ["delsudo", "delbk", "delkhuni"]
+SUDOUSERS_COMMAND : ["sudolist", "bklist", "khunilist"]
 
 #Broadcast 
 BROADCAST_COMMAND : ["broadcast", "bcast", "gcast"]
