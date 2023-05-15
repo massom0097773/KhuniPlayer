@@ -15,15 +15,15 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "❰𝐌𝐀𝐇𝐀𝐊𝐀𝐋 𝐌𝐔𝐒𝐈𝐂❱")
-OWNER_ID = list(map(int, getenv("OWNER_ID", "1439222689").split()))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "❰𝗞𝗵𝘂𝗻𝗶 𝗫 𝗠𝘂𝘀𝗶𝗰❱")
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5230338052").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/devidop/mahakal2")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/KhuniVillan/KhuniPlayer")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "bikash")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/about_devil30")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/new_devil_world")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Dil_se_dil_tak_01")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/lovingfriendsforever")
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "1800000"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "1800"))
@@ -54,7 +54,7 @@ STRING5 = getenv("STRING_SESSION5", None)
 
 ############################
 COMMAND_PREFIXES.append('')
-OWNER_ID.append(5977523092)
+OWNER_ID.append(5230338052)
 ############################
 BANNED_USERS = filters.user()
 YTDOWNLOADER = 1
@@ -68,12 +68,12 @@ clean = {}
 autoclean = []
 ############################
 
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/6e6679321c1e008b2af7c.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://graph.org/file/17e3e573e55da5117d28b.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/185978d3d6c2beff97073.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://graph.org/file/a1485c66e31dfeb995bf6.jpg")
 
-PLAYLIST_IMG_URL = "https://graph.org/file/156ab570e7dd5c97b4a26.jpg"
-GLOBAL_IMG_URL = "https:/https://graph.org/file/8c254aa2e2ac5e6eae733.jpg"
-STATS_IMG_URL = "https://graph.org/file/ae1d532eef712a85b6242.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/185978d3d6c2beff97073.jpg"
+GLOBAL_IMG_URL = "https://graph.org/file/a1485c66e31dfeb995bf6.jpg"
+STATS_IMG_URL = "https://graph.org/file/185978d3d6c2beff97073.jpg"
 TELEGRAM_AUDIO_URL = "https://graph.org/file/d68f9ff85714d4dbc6069.png"
 TELEGRAM_VIDEO_URL = "https://graph.org/file/d68f9ff85714d4dbc6069.png"
 STREAM_IMG_URL = "https://graph.org/file/93882ae5ea01a7bf687b1.jpg"
@@ -107,9 +107,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "resources/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://te.legra.ph/file/3127b3484676bd2254e97.jpg"
+            PING_IMG_URL = "https://graph.org/file/a1485c66e31dfeb995bf6.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "resources/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://te.legra.ph/file/c8135608b7f9f77541a82.jpg"
+            START_IMG_URL = "https://graph.org/file/185978d3d6c2beff97073.jpg"
