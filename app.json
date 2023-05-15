@@ -1,7 +1,7 @@
 {
-    "name": "Bgt Music Bot",
+    "name": "Khuni X Music",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://te.legra.ph/file/c8135608b7f9f77541a82.jpg",
+    "logo": "https://graph.org/file/185978d3d6c2beff97073.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -34,22 +34,22 @@
       },
       "MUSIC_BOT_NAME": {
         "description": "A name for your Music Bot. You can use special characters",
-        "value": "🌟⃝🌸𓆩🇧𝗚𝗧🎸🇲𝗨𝗦𝗜𝗖🎸🇧𝗢𝗧𓆪💫⃟👑 ",
+        "value": "🌟⃝🌸𓆩𝗞𝗵𝘂𝗻𝗶 𝗫 𝗠𝘂𝘀𝗶𝗰𓆪💫⃟👑 ",
         "required": true
       },
       "OWNER_ID": {
         "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-        "value": "1439222689",
+        "value": "5230338052",
         "required": true
       },
       "SUPPORT_GROUP": {
-        "description": "Input Your Support Group with Full Link like https://t.me/Bgt_Chat",
+        "description": "Input Your Support Group with Full Link like https://t.me/lovingfriendsforever",
         "value": "https://t.me/BGT_CHAT",
         "required": true
       },
       "SUPPORT_CHANNEL": {
         "description": "Input Your Support Channel full link ",
-        "value": "https://t.me/BIKASHGADGETSTECH",
+        "value": "https://t.me/Dil_se_dil_tak_01",
         "required": true
       },
       "STRING_SESSION": {
