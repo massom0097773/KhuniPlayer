@@ -1,13 +1,13 @@
-### Powered By @BikashHalder & @AdityaHalder 
+### Powered By @MrKhunii 
 
-### Join @BikashGadgetsTech For More Update
+### Join @Khuni_X_Villan_Server For More Update
 
-### Join @AdityaCheats For Hack
+### Join @Dil_se_dil_tak_01 For Sayri
 
-### Join Our Chats @Bgt_Chat & @Adityadiscus 
+### Join Our Chats @lovingfriendsforever 
 
 
-### Powered By [@BikashHalder](https://t.me/Bikashhalder)
+### Powered By [@MrKhunii](https://t.me/MrKhunii)
 
 
 ### ABOUT THIS BOT
@@ -24,21 +24,21 @@
 [Kaali Linux](https://youtu.be/_nZT5lhcL8U)
 
 ## ⚒️ 𝐂𝐫𝐞𝐝𝐢𝐭
-[𝐁𝐢𝐤𝐚𝐬𝐡](https://t.me/BikashHalder)
+[Khuni](https://t.me/MrKhunii)
 
 ## Telegram 🏪
 
-[![Telegram Group](https://img.shields.io/badge/Telegram-Group-brightgreen)](https://t.me/BGT_Chat)
+[![Telegram Group](https://img.shields.io/badge/Telegram-Group-brightgreen)](https://t.me/lovingfriendsforever)
 
-[![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-brightgreen)](https://t.me/Bikashgadgetstech)
+[![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-brightgreen)](https://t.me/Dil_se_dil_tak_01)
 
-## YouTube 📺
 
-[YouTube Channel](https://youtube.com/channel/UCUkj6FFzdsOO5acUXVOEECg)
+
+
 
 ### Deploy To Heroku
 
-[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/BikashHalderNew/Bgtplayer)
+[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/KhuniVillan/KhuniPlayer)
 
 ## VPS DEPLOY                                                                                          
 💥 𝐎𝐧𝐥𝐲 𝐅𝐨𝐫 𝐅𝐢𝐫𝐬𝐭 𝐓𝐢𝐦𝐞 (𝐕𝐏𝐒) 💞
@@ -52,7 +52,7 @@
 4) nvm install node
 
 5. Clone the Repository :
-git clone https://github.com/BikashhalderNew/BgtPlayer &&  cd Bgtplayer
+git clone https://github.com/KhuniVillan/KhuniPlayer &&  cd KhuniPlayer
 
 6. Install Installer : 
 pip3 install -r Installer
@@ -70,10 +70,10 @@ python3 -m modules
 #### 🥺 Copy Pasters You Can Copy This Repo But Must Give Credits ...
 
 ### 🌷 Owner Of This Repository 🇮🇳
-[![Bikash Halder](https://te.legra.ph/file/840fed0100164af249bb8.jpg)](https://t.me/BikashHalder)
+[![MrKhunii](https://graph.org/file/a1485c66e31dfeb995bf6.jpg)](https://t.me/MrKhunii)
 
 
-#### Main Developer = [Bikash](https://t.me/BikashHalder)
+#### Main Developer = [MrKhunii](https://t.me/MrKhunii)
 
 ## 💕 Special Thanks
 
@@ -85,4 +85,4 @@ python3 -m modules
 - [Pyrogram](https://github.com/pyrogram/pyrogram)
 - [Py-Tgcalls](https://github.com/pytgcalls/pytgcalls)
 
-## 🥀 Powered By [BikashHalder](https://t.me/Bikashhalder) & [AdityaHalder](https://t.me/Adityahalder)
+## 🥀 Powered By [MrKhunii](https://t.me/MrKhunii) 
