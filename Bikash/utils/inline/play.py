@@ -14,25 +14,25 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     bikash = math.floor(percentage)
     if 0 < bikash <= 10:
-        bar = "𝐃𝐞𝐯𝐢𝐥 𝐒𝐞𝐫𝐯𝐞𝐫════════"
+        bar = "𝗞𝗵𝘂𝗻𝗶 𝗦𝗲𝗿𝘃𝗲𝗿════════"
     elif 10 < bikash < 20:
-        bar = "═𝐃𝐞𝐯𝐢𝐥 𝐒𝐞𝐫𝐯𝐞𝐫═══════"
+        bar = "═𝗞𝗵𝘂𝗻𝗶 𝗦𝗲𝗿𝘃𝗲𝗿═══════"
     elif 20 <= bikash < 30:
-        bar = "══𝐃𝐞𝐯𝐢𝐥 𝐒𝐞𝐫𝐯𝐞𝐫══════"
+        bar = "══𝗞𝗵𝘂𝗻𝗶 𝗦𝗲𝗿𝘃𝗲𝗿══════"
     elif 30 <= bikash < 40:
-        bar = "═══𝐃𝐞𝐯𝐢𝐥 𝐒𝐞𝐫𝐯𝐞𝐫═════"
+        bar = "═══𝗞𝗵𝘂𝗻𝗶 𝗦𝗲𝗿𝘃𝗲𝗿═════"
     elif 40 <= bikash < 50:
-        bar = "════𝐃𝐞𝐯𝐢𝐥 𝐒𝐞𝐫𝐯𝐞𝐫════"
+        bar = "════𝗞𝗵𝘂𝗻𝗶 𝗦𝗲𝗿𝘃𝗲𝗿════"
     elif 50 <= bikash < 60:
-        bar = "═════𝐃𝐞𝐯𝐢𝐥 𝐒𝐞𝐫𝐯𝐞𝐫═══"
+        bar = "═════𝗞𝗵𝘂𝗻𝗶 𝗦𝗲𝗿𝘃𝗲𝗿═══"
     elif 60 <= bikash < 70:
-        bar = "══════𝐃𝐞𝐯𝐢𝐥 𝐒𝐞𝐫𝐯𝐞𝐫══"
+        bar = "══════𝗞𝗵𝘂𝗻𝗶 𝗦𝗲𝗿𝘃𝗲𝗿══"
     elif 70 <= bikash < 80:
-        bar = "═══════𝐃𝐞𝐯𝐢𝐥 𝐒𝐞𝐫𝐯𝐞𝐫═"
+        bar = "═══════𝗞𝗵𝘂𝗻𝗶 𝗦𝗲𝗿𝘃𝗲𝗿═"
     elif 80 <= bikash < 95:
-        bar = "════════𝐃𝐞𝐯𝐢𝐥 𝐒𝐞𝐫𝐯𝐞𝐫"
+        bar = "════════𝗞𝗵𝘂𝗻𝗶 𝗦𝗲𝗿𝘃𝗲𝗿"
     else:
-        bar = "════════𝐃𝐞𝐯𝐢𝐥 𝐒𝐞𝐫𝐯𝐞𝐫"
+        bar = "════════𝗞𝗵𝘂𝗻𝗶 𝗦𝗲𝗿𝘃𝗲𝗿"
 
     buttons = [
         [
@@ -73,7 +73,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [           
             InlineKeyboardButton(
-                text="📱 𝐌𝐚𝐧𝐞𝐠𝐦𝐞𝐧𝐭 📱", url=f"https://t.me/mahakali_manegment_bot"
+                text="📱 𝗢𝘄𝗻𝗲𝗿 📱", url=f"https://t.me/MrKhunii"
             )
         ],
         [
@@ -91,25 +91,25 @@ def telegram_markup_timer(_, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     bikash = math.floor(percentage)
     if 0 < bikash <= 10:
-        bar = "𝐃𝐞𝐯𝐢𝐥 𝐒𝐞𝐫𝐯𝐞𝐫════════"
+        bar = "𝗞𝗵𝘂𝗻𝗶 𝗦𝗲𝗿𝘃𝗲𝗿════════"
     elif 10 < bikash < 20:
-        bar = "═𝐃𝐞𝐯𝐢𝐥 𝐒𝐞𝐫𝐯𝐞𝐫═══════"
+        bar = "═𝗞𝗵𝘂𝗻𝗶 𝗦𝗲𝗿𝘃𝗲𝗿═══════"
     elif 20 <= bikash < 30:
-        bar = "══𝐃𝐞𝐯𝐢𝐥 𝐒𝐞𝐫𝐯𝐞𝐫══════"
+        bar = "══𝗞𝗵𝘂𝗻𝗶 𝗦𝗲𝗿𝘃𝗲𝗿══════"
     elif 30 <= bikash < 40:
-        bar = "═══𝐃𝐞𝐯𝐢𝐥 𝐒𝐞𝐫𝐯𝐞𝐫═════"
+        bar = "═══𝗞𝗵𝘂𝗻𝗶 𝗦𝗲𝗿𝘃𝗲𝗿═════"
     elif 40 <= bikash < 50:
-        bar = "════𝐃𝐞𝐯𝐢𝐥 𝐒𝐞𝐫𝐯𝐞𝐫════"
+        bar = "════𝗞𝗵𝘂𝗻𝗶 𝗦𝗲𝗿𝘃𝗲𝗿════"
     elif 50 <= bikash < 60:
-        bar = "═════𝐃𝐞𝐯𝐢𝐥 𝐒𝐞𝐫𝐯𝐞𝐫═══"
+        bar = "═════𝗞𝗵𝘂𝗻𝗶 𝗦𝗲𝗿𝘃𝗲𝗿═══"
     elif 60 <= bikash < 70:
-        bar = "══════𝐃𝐞𝐯𝐢𝐥 𝐒𝐞𝐫𝐯𝐞𝐫══"
+        bar = "══════𝗞𝗵𝘂𝗻𝗶 𝗦𝗲𝗿𝘃𝗲𝗿══"
     elif 70 <= bikash < 80:
-        bar = "═══════𝐃𝐞𝐯𝐢𝐥 𝐒𝐞𝐫𝐯𝐞𝐫═"
+        bar = "═══════𝗞𝗵𝘂𝗻𝗶 𝗦𝗲𝗿𝘃𝗲𝗿═"
     elif 80 <= bikash < 95:
-        bar = "════════𝐃𝐞𝐯𝐢𝐥 𝐒𝐞𝐫𝐯𝐞𝐫"
+        bar = "════════𝗞𝗵𝘂𝗻𝗶 𝗦𝗲𝗿𝘃𝗲𝗿"
     else:
-        bar = "════════𝐃𝐞𝐯𝐢𝐥 𝐒𝐞𝐫𝐯𝐞𝐫"
+        bar = "════════𝗞𝗵𝘂𝗻𝗶 𝗦𝗲𝗿𝘃𝗲𝗿"
 
     buttons = [
         [
@@ -150,7 +150,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [           
             InlineKeyboardButton(
-                text="📱 𝐌𝐚𝐧𝐞𝐠𝐦𝐞𝐧𝐭 📱", url=f"https://t.me/mahakali_manegment_bot"
+                text="📱 𝗢𝘄𝗻𝗲𝗿 📱", url=f"https://t.me/MrKhunii"
             )
         ],
         [
@@ -174,7 +174,7 @@ def stream_markup(_, videoid, chat_id):
         ],
         [           
             InlineKeyboardButton(
-                text="📱 𝐌𝐚𝐧𝐞𝐠𝐦𝐞𝐧𝐭 📱", url=f"https://t.me/mahakali_manegment_bot"
+                text="📱 𝗢𝘄𝗻𝗲𝗿 📱", url=f"https://t.me/MrKhunii"
             )
         ],
         [
@@ -220,7 +220,7 @@ def telegram_markup(_, chat_id):
         ],
         [           
             InlineKeyboardButton(
-                text="📱 𝐌𝐚𝐧𝐞𝐠𝐦𝐞𝐧𝐭 📱", url=f"https://t.me/mahakali_manegment_bot"
+                text="📱 𝗢𝘄𝗻𝗲𝗿 📱", url=f"https://t.me/MrKhunii"
             )
         ],
         [
@@ -392,7 +392,7 @@ def queue_markup(_, videoid, chat_id):
         ],
         [           
             InlineKeyboardButton(
-                text="📱 𝐌𝐚𝐧𝐞𝐠𝐦𝐞𝐧𝐭 📱", url=f"https://t.me/mahakali_manegment_bot"
+                text="📱 𝗢𝘄𝗻𝗲𝗿 📱", url=f"https://t.me/MrKhunii"
             )
         ],
         [
@@ -438,7 +438,7 @@ def telegram_markup(_, chat_id):
         ],
         [           
             InlineKeyboardButton(
-                text="📱 𝐌𝐚𝐧𝐞𝐠𝐦𝐞𝐧𝐭 📱", url=f"https://t.me/mahakali_manegment_bot"
+                text="📱 𝗢𝘄𝗻𝗲𝗿 📱", url=f"https://t.me/MrKhunii"
             )
         ],
         [
