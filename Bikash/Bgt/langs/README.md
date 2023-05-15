@@ -1,6 +1,6 @@
-# powered By Bikash Halder Or Aditya Halder
-# Bangali Language Add By Bikash Halder
+# powered By MrKhunii
+# Bangali Language Add By MrKhunii
 # telegram first BENGALI Support Music Bot
-[BIKASHHALDER](t.me/Bikashhalder)
+[MrKhunii](t.me/MrKhunii)
 
 # **Don't Use Bengali Language Without Credit** 😎😎
