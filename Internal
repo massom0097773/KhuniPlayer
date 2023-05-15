@@ -1,16 +1,16 @@
-UPSTREAM_REPO=https://github.com/BikashHalderNew/Bgtplayer
+UPSTREAM_REPO=https://github.com/KhuniVillan/KhuniPlayer
 UPSTREAM_BRANCH=bikash
 AUTO_DOWNLOADS_CLEAR=True
 API_ID=
 API_HASH=
 BOT_TOKEN=
 MONGO_DB_URI=mongodb+srv://Bikash:Bikash@bikash.yl2nhcy.mongodb.net/?retryWrites=true&w=majority
-OWNER_ID=1439222689
+OWNER_ID=5230338052
 DURATION_LIMIT=1200
 LOG_GROUP_ID=
-MUSIC_BOT_NAME=BGT MUSIC BOT
+MUSIC_BOT_NAME=Khuni X Music
 STRING_SESSION=
-SUPPORT_CHANNEL=https://t.me/bikashgadgetstech
-SUPPORT_GROUP=https://t.me/bgt_chat
+SUPPORT_CHANNEL=https://t.me/Dil_se_dil_tak_01
+SUPPORT_GROUP=https://t.me/lovingfriendsforever
 
 
