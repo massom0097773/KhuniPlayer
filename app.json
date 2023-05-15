@@ -29,7 +29,7 @@
       },
       "MONGO_DB_URI": {
         "description": "Get a mongodb url from https://cloud.mongodb.com. Below MONGOdb only for Test Don't Use Otherwise Your Bot Hack By Any Hacker",
-        "value": "mongodb+srv://Bikash:Bikash@bikash.yl2nhcy.mongodb.net/?retryWrites=true&w=majority",
+        "value": "",
         "required": true
       },
       "MUSIC_BOT_NAME": {
@@ -44,7 +44,7 @@
       },
       "SUPPORT_GROUP": {
         "description": "Input Your Support Group with Full Link like https://t.me/lovingfriendsforever",
-        "value": "https://t.me/BGT_CHAT",
+        "value": "https://t.me/lovingfriendsforever",
         "required": true
       },
       "SUPPORT_CHANNEL": {
