@@ -75,7 +75,7 @@ HELP_5 = """✅<u>**Extra  Commands:**</u>
 
 /seekback or /cseekback - Backward Seek the music to your duration
 
-/bikash - check who is Bikash
+/massom - check who is massom
 
 /repo - for repo
 
