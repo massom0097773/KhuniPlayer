@@ -14,25 +14,25 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     bikash = math.floor(percentage)
     if 0 < bikash <= 10:
-        bar = "𝗞𝗵𝘂𝗻𝗶 𝗦𝗲𝗿𝘃𝗲𝗿════════"
+        bar = "𝐈𝐧𝐧𝐨𝐜𝐞𝐧𝐭 𝗦𝗲𝗿𝘃𝗲𝗿════════"
     elif 10 < bikash < 20:
-        bar = "═𝗞𝗵𝘂𝗻𝗶 𝗦𝗲𝗿𝘃𝗲𝗿═══════"
+        bar = "═𝐈𝐧𝐧𝐨𝐜𝐞𝐧𝐭 𝗦𝗲𝗿𝘃𝗲𝗿═══════"
     elif 20 <= bikash < 30:
-        bar = "══𝗞𝗵𝘂𝗻𝗶 𝗦𝗲𝗿𝘃𝗲𝗿══════"
+        bar = "══𝐈𝐧𝐧𝐨𝐜𝐞𝐧𝐭 𝗦𝗲𝗿𝘃𝗲𝗿══════"
     elif 30 <= bikash < 40:
-        bar = "═══𝗞𝗵𝘂𝗻𝗶 𝗦𝗲𝗿𝘃𝗲𝗿═════"
+        bar = "═══𝐈𝐧𝐧𝐨𝐜𝐞𝐧𝐭 𝗦𝗲𝗿𝘃𝗲𝗿═════"
     elif 40 <= bikash < 50:
-        bar = "════𝗞𝗵𝘂𝗻𝗶 𝗦𝗲𝗿𝘃𝗲𝗿════"
+        bar = "════𝐈𝐧𝐧𝐨𝐜𝐞𝐧𝐭 𝗦𝗲𝗿𝘃𝗲𝗿════"
     elif 50 <= bikash < 60:
-        bar = "═════𝗞𝗵𝘂𝗻𝗶 𝗦𝗲𝗿𝘃𝗲𝗿═══"
+        bar = "═════𝐈𝐧𝐧𝐨𝐜𝐞𝐧𝐭 𝗦𝗲𝗿𝘃𝗲𝗿═══"
     elif 60 <= bikash < 70:
-        bar = "══════𝗞𝗵𝘂𝗻𝗶 𝗦𝗲𝗿𝘃𝗲𝗿══"
+        bar = "══════𝐈𝐧𝐧𝐨𝐜𝐞𝐧𝐭 𝗦𝗲𝗿𝘃𝗲𝗿══"
     elif 70 <= bikash < 80:
-        bar = "═══════𝗞𝗵𝘂𝗻𝗶 𝗦𝗲𝗿𝘃𝗲𝗿═"
+        bar = "═══════𝐈𝐧𝐧𝐨𝐜𝐞𝐧𝐭 𝗦𝗲𝗿𝘃𝗲𝗿═"
     elif 80 <= bikash < 95:
-        bar = "════════𝗞𝗵𝘂𝗻𝗶 𝗦𝗲𝗿𝘃𝗲𝗿"
+        bar = "════════𝐈𝐧𝐧𝐨𝐜𝐞𝐧𝐭 𝗦𝗲𝗿𝘃𝗲𝗿"
     else:
-        bar = "════════𝗞𝗵𝘂𝗻𝗶 𝗦𝗲𝗿𝘃𝗲𝗿"
+        bar = "════════𝐈𝐧𝐧𝐨𝐜𝐞𝐧𝐭 𝗦𝗲𝗿𝘃𝗲𝗿"
 
     buttons = [
         [
@@ -73,7 +73,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [           
             InlineKeyboardButton(
-                text="📱 𝗢𝘄𝗻𝗲𝗿 📱", url=f"https://t.me/MrKhunii"
+                text="📱 𝗢𝘄𝗻𝗲𝗿 📱", url=f"https://t.me/massomop"
             )
         ],
         [
@@ -91,25 +91,25 @@ def telegram_markup_timer(_, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     bikash = math.floor(percentage)
     if 0 < bikash <= 10:
-        bar = "𝗞𝗵𝘂𝗻𝗶 𝗦𝗲𝗿𝘃𝗲𝗿════════"
+        bar = "𝐈𝐧𝐧𝐨𝐜𝐞𝐧𝐭 𝗦𝗲𝗿𝘃𝗲𝗿════════"
     elif 10 < bikash < 20:
-        bar = "═𝗞𝗵𝘂𝗻𝗶 𝗦𝗲𝗿𝘃𝗲𝗿═══════"
+        bar = "═══𝐈𝐧𝐧𝐨𝐜𝐞𝐧𝐭 𝗦𝗲𝗿𝘃𝗲𝗿═════"
     elif 20 <= bikash < 30:
-        bar = "══𝗞𝗵𝘂𝗻𝗶 𝗦𝗲𝗿𝘃𝗲𝗿══════"
+        bar = "══𝐈𝐧𝐧𝐨𝐜𝐞𝐧𝐭 𝗦𝗲𝗿𝘃𝗲𝗿══════"
     elif 30 <= bikash < 40:
-        bar = "═══𝗞𝗵𝘂𝗻𝗶 𝗦𝗲𝗿𝘃𝗲𝗿═════"
+        bar = "═══𝐈𝐧𝐧𝐨𝐜𝐞𝐧𝐭 𝗦𝗲𝗿𝘃𝗲𝗿═════"
     elif 40 <= bikash < 50:
-        bar = "════𝗞𝗵𝘂𝗻𝗶 𝗦𝗲𝗿𝘃𝗲𝗿════"
+        bar = "════𝐈𝐧𝐧𝐨𝐜𝐞𝐧𝐭 𝗦𝗲𝗿𝘃𝗲𝗿════"
     elif 50 <= bikash < 60:
-        bar = "═════𝗞𝗵𝘂𝗻𝗶 𝗦𝗲𝗿𝘃𝗲𝗿═══"
+        bar = "═════𝐈𝐧𝐧𝐨𝐜𝐞𝐧𝐭 𝗦𝗲𝗿𝘃𝗲𝗿═══"
     elif 60 <= bikash < 70:
-        bar = "══════𝗞𝗵𝘂𝗻𝗶 𝗦𝗲𝗿𝘃𝗲𝗿══"
+        bar = "══════𝐈𝐧𝐧𝐨𝐜𝐞𝐧𝐭 𝗦𝗲𝗿𝘃𝗲𝗿══"
     elif 70 <= bikash < 80:
-        bar = "═══════𝗞𝗵𝘂𝗻𝗶 𝗦𝗲𝗿𝘃𝗲𝗿═"
+        bar = "═══════𝐈𝐧𝐧𝐨𝐜𝐞𝐧𝐭 𝗦𝗲𝗿𝘃𝗲𝗿═"
     elif 80 <= bikash < 95:
-        bar = "════════𝗞𝗵𝘂𝗻𝗶 𝗦𝗲𝗿𝘃𝗲𝗿"
+        bar = "════════𝐈𝐧𝐧𝐨𝐜𝐞𝐧𝐭 𝗦𝗲𝗿𝘃𝗲𝗿"
     else:
-        bar = "════════𝗞𝗵𝘂𝗻𝗶 𝗦𝗲𝗿𝘃𝗲𝗿"
+        bar = "════════𝐈𝐧𝐧𝐨𝐜𝐞𝐧𝐭 𝗦𝗲𝗿𝘃𝗲𝗿"
 
     buttons = [
         [
@@ -150,7 +150,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [           
             InlineKeyboardButton(
-                text="📱 𝗢𝘄𝗻𝗲𝗿 📱", url=f"https://t.me/MrKhunii"
+                text="📱 𝗢𝘄𝗻𝗲𝗿 📱", url=f"https://t.me/massomop"
             )
         ],
         [
@@ -174,7 +174,7 @@ def stream_markup(_, videoid, chat_id):
         ],
         [           
             InlineKeyboardButton(
-                text="📱 𝗢𝘄𝗻𝗲𝗿 📱", url=f"https://t.me/MrKhunii"
+                text="📱 𝗢𝘄𝗻𝗲𝗿 📱", url=f"https://t.me/massomop"
             )
         ],
         [
@@ -220,7 +220,7 @@ def telegram_markup(_, chat_id):
         ],
         [           
             InlineKeyboardButton(
-                text="📱 𝗢𝘄𝗻𝗲𝗿 📱", url=f"https://t.me/MrKhunii"
+                text="📱 𝗢𝘄𝗻𝗲𝗿 📱", url=f"https://t.me/massomop"
             )
         ],
         [
@@ -309,11 +309,11 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
         [
             InlineKeyboardButton(
                 text=_["P_B_1"],
-                callback_data=f"bikashPlaylists {videoid}|{user_id}|{ptype}|a|{channel}|{fplay}",
+                callback_data=f"innocentPlaylists {videoid}|{user_id}|{ptype}|a|{channel}|{fplay}",
             ),
             InlineKeyboardButton(
                 text=_["P_B_2"],
-                callback_data=f"bikashPlaylists {videoid}|{user_id}|{ptype}|v|{channel}|{fplay}",
+                callback_data=f"innocentPlaylists {videoid}|{user_id}|{ptype}|v|{channel}|{fplay}",
             ),
         ],
         [
@@ -392,7 +392,7 @@ def queue_markup(_, videoid, chat_id):
         ],
         [           
             InlineKeyboardButton(
-                text="📱 𝗢𝘄𝗻𝗲𝗿 📱", url=f"https://t.me/MrKhunii"
+                text="📱 𝗢𝘄𝗻𝗲𝗿 📱", url=f"https://t.me/massomop"
             )
         ],
         [
@@ -438,7 +438,7 @@ def telegram_markup(_, chat_id):
         ],
         [           
             InlineKeyboardButton(
-                text="📱 𝗢𝘄𝗻𝗲𝗿 📱", url=f"https://t.me/MrKhunii"
+                text="📱 𝗢𝘄𝗻𝗲𝗿 📱", url=f"https://t.me/massomop"
             )
         ],
         [
