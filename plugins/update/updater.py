@@ -59,8 +59,8 @@ async def update_bot(_, message: Message):
     chat_id = message.chat.id
     msg = await message.reply_text("**🥀 𝐂𝐡𝐞𝐜𝐤𝐢𝐧𝐠 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 ✨ ...**")
     update_avail = updater()
-    os.system("git config --global user.name 'Kaal-xD'")
-    os.system("git config --global user.email 'kaalnewtube@gmail.com'")
+    os.system("git config --global user.name 'massomop'")
+    os.system("git config --global user.email 'chauhanritik223@gmail.com'")
     # os.system("git config --global credential.helper store")
     # os.system("echo 'https://{GIT_NAME}:{GIT_TOKEN}@github.com' > ~/.git-credentials")
     if update_avail:
