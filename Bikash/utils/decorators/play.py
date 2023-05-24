@@ -70,7 +70,7 @@ def PlayWrapper(command):
                     [
                         InlineKeyboardButton(
                             text="How To Fix It ?",
-                            callback_data="AnonymousAdmin",
+                            callback_data="massomop",
                         ),
                     ]
                 ]
