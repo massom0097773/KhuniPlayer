@@ -19,14 +19,14 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "❰𝗞𝗵𝘂𝗻𝗶 𝗫 𝗠𝘂
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5230338052").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/KhuniVillan/KhuniPlayer")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/massom0097773/KhuniPlayer")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "bikash")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Dil_se_dil_tak_01")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/lovingfriendsforever")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/about_meeBacha")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/innocentop")
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "1800000"))
-SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "1800"))
+SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "1800000"))
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", False)
 AUTO_LEAVE_ASSISTANT_TIME = int(
     getenv("ASSISTANT_LEAVE_TIME", "5400")
@@ -68,20 +68,20 @@ clean = {}
 autoclean = []
 ############################
 
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/185978d3d6c2beff97073.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://graph.org/file/a1485c66e31dfeb995bf6.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/9c816d97efbbfc8a032dd.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://te.legra.ph/file/4802a1892c897f7ef4ef0.jpg")
 
-PLAYLIST_IMG_URL = "https://graph.org/file/185978d3d6c2beff97073.jpg"
-GLOBAL_IMG_URL = "https://graph.org/file/a1485c66e31dfeb995bf6.jpg"
-STATS_IMG_URL = "https://graph.org/file/185978d3d6c2beff97073.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/d68f9ff85714d4dbc6069.png"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/d68f9ff85714d4dbc6069.png"
-STREAM_IMG_URL = "https://graph.org/file/93882ae5ea01a7bf687b1.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/0d021735560cbf0bb749a.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/4a8cc770a5bea2136bada.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/8427fca139bcbf3c54bcb.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/8427fca139bcbf3c54bcb.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/8427fca139bcbf3c54bcb.jpg"
+PLAYLIST_IMG_URL = "https://te.legra.ph/file/bc1a0f787e37514a7029b.jpg"
+GLOBAL_IMG_URL = "https://te.legra.ph/file/bc1a0f787e37514a7029b.jpg"
+STATS_IMG_URL = "https://te.legra.ph/file/bc1a0f787e37514a7029b.jpg"
+TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/bc1a0f787e37514a7029b.jpg"
+TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/bc1a0f787e37514a7029b.jpg"
+STREAM_IMG_URL = "https://te.legra.ph/file/bc1a0f787e37514a7029b.jpg"
+SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bc1a0f787e37514a7029b.jpg"
+YOUTUBE_IMG_URL = "https://te.legra.ph/file/bc1a0f787e37514a7029b.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/4802a1892c897f7ef4ef0.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/4802a1892c897f7ef4ef0.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/9c816d97efbbfc8a032dd.jpg"
 
 
 def time_to_seconds(time):
@@ -107,9 +107,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "resources/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://graph.org/file/a1485c66e31dfeb995bf6.jpg"
+            PING_IMG_URL = "https://te.legra.ph/file/4802a1892c897f7ef4ef0.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "resources/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://graph.org/file/185978d3d6c2beff97073.jpg"
+            START_IMG_URL = "https://te.legra.ph/file/bc1a0f787e37514a7029b.jpg"
