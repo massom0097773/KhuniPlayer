@@ -1,7 +1,7 @@
 {
     "name": "Khuni X Music",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://graph.org/file/185978d3d6c2beff97073.jpg",
+    "logo": "https://te.legra.ph/file/bc1a0f787e37514a7029b.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -43,13 +43,13 @@
         "required": true
       },
       "SUPPORT_GROUP": {
-        "description": "Input Your Support Group with Full Link like https://t.me/lovingfriendsforever",
-        "value": "https://t.me/lovingfriendsforever",
+        "description": "Input Your Support Group with Full Link like https://t.me/about_meeBacha",
+        "value": "https://t.me/innocentop",
         "required": true
       },
       "SUPPORT_CHANNEL": {
         "description": "Input Your Support Channel full link ",
-        "value": "https://t.me/Dil_se_dil_tak_01",
+        "value": "https://t.me/about_meeBacha",
         "required": true
       },
       "STRING_SESSION": {
