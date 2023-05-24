@@ -15,7 +15,7 @@ def song_markup(_, vidid):
         ],
         [           
             InlineKeyboardButton(
-                text="📱 𝐌𝐲 𝐥𝐨𝐯𝐞 📱", url=f"https://t.me/official_misty_op"
+                text="📱 𝐌𝐲 𝐥𝐨𝐯𝐞 📱", url=f"https://t.me/Nikal_beee"
             ),
         ],
         [
