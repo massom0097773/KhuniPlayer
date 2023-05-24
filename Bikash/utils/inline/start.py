@@ -28,7 +28,7 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [           
             InlineKeyboardButton(
-                text="📱 𝗢𝘄𝗻𝗲𝗿 📱", url=f"https://t.me/MrKhunii"
+                text="📱 𝗢𝘄𝗻𝗲𝗿 📱", url=f"https://t.me/massomop"
             )
         ],
      ]
@@ -58,7 +58,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [           
             InlineKeyboardButton(
-                text="📱 𝗢𝘄𝗻𝗲𝗿 📱", url=f"https://youtube.com/MrKhunii"
+                text="📱 𝗢𝘄𝗻𝗲𝗿 📱", url=f"https://t.me/about_meeBacha"
             )
         ],
         [
