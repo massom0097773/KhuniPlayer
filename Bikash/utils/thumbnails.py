@@ -1,7 +1,7 @@
-# Power By @BikashHalder & @AdityaHalder 
-# Join @BikashGadgetsTech For More Update
-# Join @AdityaCheats For Hack
-# Join Our Chats @Bgt_Chat & @Adityadiscus 
+# Power By @massomop & @innocentpapaboltr
+# Join @about_meeBacha For More Update
+# Join @about_meeBacha For Hack
+# Join Our Chats @innocentop & @innocentpapabolte 
 
 import os
 import re
@@ -84,7 +84,7 @@ async def gen_thumb(videoid, user_id):
         draw.text((190, 530), f"Title: {title[:50]} ...", (255, 255, 255), font=font)
         draw.text((190, 570), f"Duration: {duration}", (255, 255, 255), font=font)
         draw.text((190, 610), f"Views: {views}", (255, 255, 255), font=font)
-        draw.text((190, 650), f"Powered By: Khuni Server (Khuni X Music)", (255, 255, 255), font=font)
+        draw.text((190, 650), f"Powered By: 𝐈𝐧𝐧𝐨𝐜𝐞𝐧𝐭 Server (𝐈𝐧𝐧𝐨𝐜𝐞𝐧𝐭 X Music)", (255, 255, 255), font=font)
         try:
             os.remove(f"cache/thumb{videoid}.png")
             os.remove(f"cache/temp.png")
@@ -150,7 +150,7 @@ async def gen_qthumb(videoid, user_id):
         draw.text((190, 530), f"Title: {title[:50]} ...", (255, 255, 255), font=font)
         draw.text((190, 570), f"Duration: {duration}", (255, 255, 255), font=font)
         draw.text((190, 610), f"Views: {views}", (255, 255, 255), font=font)
-        draw.text((190, 650), f"Powered By: MrKhunii (@MrKhunii)", (255, 255, 255), font=font)
+        draw.text((190, 650), f"Powered By: 𝐈𝐧𝐧𝐨𝐜𝐞𝐧𝐭 (@massomop)", (255, 255, 255), font=font)
         try:
             os.remove(f"cache/thumb{videoid}.png")
             os.remove(f"cache/temp.png")
@@ -163,7 +163,7 @@ async def gen_qthumb(videoid, user_id):
 
 
 
-# Power By @BikashHalder & @AdityaHalder 
-# Join @BikashGadgetsTech For More Update
-# Join @AdityaCheats For Hack
-# Join Our Chats @Bgt_Chat & @Adityadiscus 
+# Power By @about_meeBacha & @massomop
+# Join @about_meeBacha For More Update
+# Join @about_meeBacha For Hack
+# Join Our Chats @innocentop & @massomop 
