@@ -315,7 +315,7 @@ async def update_(client, message, _):
 
 @app.on_message(filters.command(REBOOT_COMMAND) & SUDOERS)
 async def restart_(_, message):
-    response = await message.reply_text("𝐑𝐞𝐬𝐭𝐚𝐫𝐭𝐢𝐧𝐠 🔃..")
+    response = await message.reply_text("𝐑𝐞𝐬𝐭𝐚𝐫𝐭𝐢𝐧𝐠 Massom 🔃..")
     served_chats = await get_active_chats()
     for x in served_chats:
         try:
@@ -337,6 +337,6 @@ async def restart_(_, message):
     except:
         pass
     await response.edit(
-        "𝐁𝐠𝐭 𝐌𝐮𝐬𝐢𝐜 𝐁𝐨𝐭 𝐑𝐞𝐛𝐨𝐨𝐭 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 ! 𝐖𝐚𝐢𝐭 𝐅𝐞𝐰 𝐌𝐢𝐧𝐮𝐭𝐞𝐬.."
+        "Massom 𝐌𝐮𝐬𝐢𝐜 𝐁𝐨𝐭 𝐑𝐞𝐛𝐨𝐨𝐭 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 ! 𝐖𝐚𝐢𝐭 𝐅𝐞𝐰 𝐌𝐢𝐧𝐮𝐭𝐞𝐬.."
     )
     os.system(f"kill -9 {os.getpid()} && python3 -m Bikash")
