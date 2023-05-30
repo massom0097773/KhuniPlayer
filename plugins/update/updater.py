@@ -11,7 +11,7 @@ from Bikash.config import UPSTREAM_REPO, UPSTREAM_BRANCH, GIT_TOKEN, OWNER_ID
 from Bikash import app
 
 if GIT_TOKEN:
-     UPSTREAM_REPO = 'https://github.com/BikashHalderNew/Bgtplayer'
+     UPSTREAM_REPO = 'https://t.me/about_meeBachaa'
 else:
      UPSTREAM_REPO = UPSTREAM_REPO
 
@@ -57,15 +57,15 @@ def updater():
 @app.on_message(filters.command(["bgtboot"]) & filters.user(OWNER_ID) & ~filters.edited)
 async def update_bot(_, message: Message):
     chat_id = message.chat.id
-    msg = await message.reply_text("**🥀 𝐂𝐡𝐞𝐜𝐤𝐢𝐧𝐠 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 ✨ ...**")
+    msg = await message.reply_text("**🥀 Massom 𝐂𝐡𝐞𝐜𝐤𝐢𝐧𝐠 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 ✨ ...**")
     update_avail = updater()
     os.system("git config --global user.name 'massomop'")
     os.system("git config --global user.email 'chauhanritik223@gmail.com'")
     # os.system("git config --global credential.helper store")
     # os.system("echo 'https://{GIT_NAME}:{GIT_TOKEN}@github.com' > ~/.git-credentials")
     if update_avail:
-        await msg.edit("**🥀 𝐑𝐞𝐬𝐭𝐚𝐫𝐭𝐢𝐧𝐠 𝐁𝐨𝐭, 𝐏𝐥𝐞𝐚𝐬𝐞 » 𝐖𝐚𝐢𝐭 ✨ ...**")
+        await msg.edit("**🥀 Massom 𝐑𝐞𝐬𝐭𝐚𝐫𝐭𝐢𝐧𝐠 𝐁𝐨𝐭, 𝐏𝐥𝐞𝐚𝐬𝐞 » 𝐖𝐚𝐢𝐭 ✨ ...**")
         os.system("git pull -f && pip3 install -U -r Installer")
         os.system(f"kill -9 {os.getpid()} && bikash start")
         return
-    await msg.edit(f"**🥀 𝐀𝐥𝐫𝐞𝐚𝐝𝐲 𝐔𝐩𝐝𝐚𝐭𝐞𝐝 𝐓𝐨 𝐋𝐚𝐭𝐞𝐬𝐭 ✨ ...**")
+    await msg.edit(f"**🥀 Massom 𝐀𝐥𝐫𝐞𝐚𝐝𝐲 𝐔𝐩𝐝𝐚𝐭𝐞𝐝 𝐓𝐨 𝐋𝐚𝐭𝐞𝐬𝐭 ✨ ...**")
