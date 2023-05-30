@@ -52,7 +52,7 @@ RESTART_COMMAND : ["restart", ".reset", "gpreboot"]
 
 # Sudo Command
 ADDSUDO_COMMAND : ["addsudo", "adbk", "admassom"]
-DELSUDO_COMMAND : ["delsudo", "delbk", "delkhuni"]
+DELSUDO_COMMAND : ["delsudo", "delbk", "delmassom"]
 SUDOUSERS_COMMAND : ["sudolist", "bklist", "massomlist"]
 
 #Broadcast 
