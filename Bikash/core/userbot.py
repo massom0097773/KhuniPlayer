@@ -48,8 +48,8 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("about_meeBacha")
-                await self.one.join_chat("about_meeBacha")
+                await self.one.join_chat("about_meeBachaa")
+                await self.one.join_chat("about_meeBachaa")
             except:
                 pass
             assistants.append(1)
@@ -69,7 +69,7 @@ class Userbot(Client):
             )
             try:
                 await self.one.send_message(
-                    config.LOG_GROUP_ID, f"**» {config.MUSIC_BOT_NAME} 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐨𝐧𝐞 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 :**\n\n✨ 𝐈𝐝 : `{self.one.id}`\n❄ 𝐍𝐚𝐦𝐞 : {self.one.name}\n💫 𝐔𝐬𝐞𝐫𝐧𝐚𝐦𝐞 : @{self.one.username}"
+                    config.LOG_GROUP_ID, f"**» {config.MUSIC_BOT_NAME} 𝐌𝐚𝐬𝐬𝐨𝐦 𝐨𝐧𝐞 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 :**\n\n✨ 𝐈𝐝 : `{self.one.id}`\n❄ 𝐍𝐚𝐦𝐞 : {self.one.name}\n💫 𝐔𝐬𝐞𝐫𝐧𝐚𝐦𝐞 : @{self.one.username}"
                 )
             except:
                 LOGGER(__name__).error(
@@ -79,8 +79,8 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("about_meeBacha")
-                await self.two.join_chat("about_meeBacha")
+                await self.two.join_chat("about_meeBachaa")
+                await self.two.join_chat("about_meeBachaa")
             except:
                 pass
             assistants.append(2)
@@ -110,8 +110,8 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("about_meeBacha")
-                await self.three.join_chat("about_meeBacha")
+                await self.three.join_chat("about_meeBachaa")
+                await self.three.join_chat("about_meeBachaa")
             except:
                 pass
             assistants.append(3)
@@ -141,8 +141,8 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("about_meeBacha")
-                await self.four.join_chat("about_meeBacha")
+                await self.four.join_chat("about_meeBachaa")
+                await self.four.join_chat("about_meeBachaa")
             except:
                 pass
             assistants.append(4)
@@ -172,8 +172,8 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("about_meeBacha")
-                await self.five.join_chat("about_meeBacha")
+                await self.five.join_chat("about_meeBachaa")
+                await self.five.join_chat("about_meeBachaa")
             except:
                 pass
             assistants.append(5)
