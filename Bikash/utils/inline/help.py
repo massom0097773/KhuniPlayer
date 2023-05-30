@@ -13,7 +13,7 @@ def help_pannel(_, START: Union[bool, int] = None):
         InlineKeyboardButton(
             # text=_["BACK_BUTTON"],
             text="🏠 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 🏠",
-            url=f"https://t.me/about_meeBacha",
+            url=f"https://t.me/about_meeBachaa",
         ),
         InlineKeyboardButton(
             text="𝐂𝐫𝐞𝐚𝐭𝐨𝐫",
