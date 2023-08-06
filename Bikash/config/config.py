@@ -23,10 +23,10 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/massom0097773/KhuniP
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "bikash")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/about_meeBachaa")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/innocentop")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/"innocent_world_chat")
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "1800000"))
-SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "1800000"))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "180000000000000"))
+SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "1800000000000"))
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", False)
 AUTO_LEAVE_ASSISTANT_TIME = int(
     getenv("ASSISTANT_LEAVE_TIME", "5400")
@@ -34,14 +34,14 @@ AUTO_LEAVE_ASSISTANT_TIME = int(
 
 AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", "True")
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
-YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "5"))
-TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "3"))
+YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "9999999"))
+TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "999999999"))
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
-VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "5"))
-SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "50"))
-PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "50"))
-CLEANMODE_DELETE_MINS = int(getenv("CLEANMODE_MINS", "12"))
+VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "5000000000"))
+SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "5000000000000"))
+PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "5000000000000"))
+CLEANMODE_DELETE_MINS = int(getenv("CLEANMODE_MINS", "120000000000"))
 TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
@@ -68,20 +68,20 @@ clean = {}
 autoclean = []
 ############################
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/9c816d97efbbfc8a032dd.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://te.legra.ph/file/4802a1892c897f7ef4ef0.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/734977dd1b03b449119fd.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://te.legra.ph/file/734977dd1b03b449119fd.jpg")
 
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/bc1a0f787e37514a7029b.jpg"
-GLOBAL_IMG_URL = "https://te.legra.ph/file/bc1a0f787e37514a7029b.jpg"
-STATS_IMG_URL = "https://te.legra.ph/file/bc1a0f787e37514a7029b.jpg"
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/bc1a0f787e37514a7029b.jpg"
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/bc1a0f787e37514a7029b.jpg"
-STREAM_IMG_URL = "https://te.legra.ph/file/bc1a0f787e37514a7029b.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bc1a0f787e37514a7029b.jpg"
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/bc1a0f787e37514a7029b.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/4802a1892c897f7ef4ef0.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/4802a1892c897f7ef4ef0.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/9c816d97efbbfc8a032dd.jpg"
+PLAYLIST_IMG_URL = "https://te.legra.ph/file/734977dd1b03b449119fd.jpg"
+GLOBAL_IMG_URL = "https://te.legra.ph/file/734977dd1b03b449119fd.jpg"
+STATS_IMG_URL = "https://te.legra.ph/file/734977dd1b03b449119fd.jpg"
+TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/734977dd1b03b449119fd.jpg"
+TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/734977dd1b03b449119fd.jpg"
+STREAM_IMG_URL = "https://te.legra.ph/file/734977dd1b03b449119fd.jpg"
+SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/734977dd1b03b449119fd.jpg"
+YOUTUBE_IMG_URL = "https://te.legra.ph/file/734977dd1b03b449119fd.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/734977dd1b03b449119fd.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/734977dd1b03b449119fd.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/734977dd1b03b449119fd.jpg"
 
 
 def time_to_seconds(time):
@@ -107,9 +107,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "resources/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://te.legra.ph/file/4802a1892c897f7ef4ef0.jpg"
+            PING_IMG_URL = "https://te.legra.ph/file/734977dd1b03b449119fd.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "resources/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://te.legra.ph/file/bc1a0f787e37514a7029b.jpg"
+            START_IMG_URL = "https://te.legra.ph/file/734977dd1b03b449119fd.jpg"
